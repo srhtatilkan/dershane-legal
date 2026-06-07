@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dershane Yönetim Sistemi - Yasal Bilgiler</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo-icon {
+            font-size: 4em;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #6C63FF;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .links {
+            display: grid;
+            gap: 15px;
+        }
+
+        .link-card {
+            display: block;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 12px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-color: #6C63FF;
+        }
+
+        .link-card h2 {
+            font-size: 1.3em;
+            margin-bottom: 5px;
+            color: #6C63FF;
+        }
+
+        .link-card p {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .link-icon {
+            float: left;
+            font-size: 2em;
+            margin-right: 15px;
+            line-height: 1;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .subtitle {
+                font-size: 1em;
+            }
+
+            .link-card {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="logo-icon">📚</div>
+            <h1>Dershane Yönetim Sistemi</h1>
+            <p class="subtitle">Yasal Bilgiler ve Politikalar</p>
+        </div>
+
+        <div class="links">
+            <a href="privacy-policy.html" class="link-card">
+                <span class="link-icon">🔒</span>
+                <h2>Gizlilik Politikası</h2>
+                <p>Kişisel verilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında bilgi</p>
+            </a>
+
+            <a href="terms-of-service.html" class="link-card">
+                <span class="link-icon">📜</span>
+                <h2>Kullanım Şartları</h2>
+                <p>Uygulama kullanımına ilişkin kural ve koşullar</p>
+            </a>
+
+            <a href="mailto:support@dershaneapp.com" class="link-card">
+                <span class="link-icon">📧</span>
+                <h2>İletişim</h2>
+                <p>Sorularınız ve talepleriniz için bizimle iletişime geçin</p>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>
+                © 2026 Dershane Yönetim Sistemi<br>
+                Tüm hakları saklıdır.
+            </p>
+            <p style="margin-top: 10px;">
+                KVKK ve GDPR uyumlu
+            </p>
+        </div>
+    </div>
+</body>
+</html>
